@@ -25,9 +25,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              
+              "src/styles.css",
+              "dracula/node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
-            "scripts": [],
+            "scripts": [
+              "dracula/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "dracula/node_modules/jquery/dist/jquery.min.js",
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js",
+              "https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js",
+              "https://cdn.startbootstrap.com/sb-forms-latest.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -89,9 +98,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           }
         }
       }
